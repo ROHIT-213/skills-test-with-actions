@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 jobs:
-  coverage:
+  python-coverage:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
